@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Нічник</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header" tabindex="0">
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="main-logo">
+						<a href="index.html"><img src="images/android-chrome-192x192.png" alt="logo" width="50"></a>
+                        <h1>Нічник</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="billboard">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-slider pattern-overlay">
+                        <div class="slider-item"> 
+							<img src="images/main-banner1.jpg" alt="banner" class="banner-image">
+							
+                            <div class="banner-content">
+								<div class="wrap">
+									<a href="#reg"><button class="button">350₴</button></a>
+								  </div>
+                                <h2 class="banner-title">Космонавт, астронавт сидячий, проектор зоряного неба, нічник</h2>
+                                <p>Дивовижні зірки астронавтів тепер доступні для всіх! Пропонуємо вашій увазі новий проектор зоряного неба "Астронавт" - унікальний пристрій, створений спеціально для маленьких (і не тільки) любителів космосу!</p>
+                                
+                                <p><strong>Особливості та переваги проектора:</strong></p>
+                                <ul>
+                                    <li>Регулювання на 360°, що дозволяє насолоджуватися панорамною проекцією зоряного неба та галактики по всьому простору.</li>
+                                    <li>Вісім режимів проекції, різні ефекти, включаючи суцільні зірки, пульсуючі ефекти та динамічне мерехтіння.</li>
+                                    <li>Багатофункціональний пульт дистанційного керування, що дозволяє повністю контролювати роботу проектора: змінювати режими проекції, регулювати яскравість туманності та зірок, а також швидкість обертання туманності.</li>
+                                    <li>Вбудований таймер, який можна встановити на 45 або 90 хвилин, а також вибрати нескінченний час проектування.</li>
+                                    <li>Регулювання яскравості туманності та зірок дозволяє створити ідеальне освітлення в кімнаті, відчуття комфорту та затишку.</li>
+                                </ul>
+
+                                <p><strong>Проектор А1 подарує радість та захоплення дитині, розвиваючи уяву та інтерес до науки!</strong></p>
+
+                                <p><strong>Технічні характеристики:</strong></p>
+                                <ul>
+                                    <li>Потужність споживання: 5 Вт/1А.</li>
+                                    <li>Діапазон проекції: від 2 до 10 м, 360°.</li>
+                                    <li>Матеріал: ABS.</li>
+                                    <li>Ресурс роботи LED: 50000 год.</li>
+                                    <li>Розміри: 8,5/8,5/12,5 см.</li>
+                                </ul>
+
+                                <p><strong>Комплектація:</strong> проектор Астронавт, пульт ДУ, USB кабель, інструкція</p>
+                            </div><!--banner-content-->
+                           
+                        </div><!--slider-item-->
+                    </div><!--main-slider-->
+                </div><!--col-md-12-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+	
+
+    <div class="box" id="reg">
+        <form id="survey-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="810424b6-ee5b-4528-a028-b347afecaa2d">
+
+            <label id="name-label" for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Введіть своє ім'я" required>
+            
+            <label for="surname">Фамілія:</label>
+            <input type="text" id="surname" name="surname" placeholder="Введіть свою фамілію">
+
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Введіть свій email" required>
+
+            <label for="phone">Номер телефону:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введіть свій номер телефону" pattern="[0-9]{10}" required>
+
+            
+			<button class="bubbly-button" type="submit" id="submit">Замовити</button>
+        </form>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
